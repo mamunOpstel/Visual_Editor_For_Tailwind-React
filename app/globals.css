@@ -19,3 +19,7 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.btn {
+  @apply border px-2 py-3 rounded-sm hover:bg-slate-800  ;
+}
